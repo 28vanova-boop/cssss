@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice CSS Webpage</title>
+
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <style>
+
+        body {
+            background-image: url("plane.jpeg");
+            background-repeat: repeat;
+            font-family: Arial, sans-serif;
+            color: black;
+        }
+
+        header {
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 2px 2px gray;
+            font-family: Georgia, serif;
+        }
+
+        main {
+            width: 80%;
+            margin: auto;
+            line-height: 1.6;
+            word-spacing: 5px;
+        }
+
+        footer {
+            text-align: center;
+            font-family: "Courier New", monospace;
+            font-size: 14px;
+            text-decoration: underline;
+            margin-top: 30px;
+        }
+
+        ol {
+            list-style-type: upper-roman;
+            font-weight: bold;
+        }
+
+        .square {
+            list-style-type: square;
+            color: darkblue;
+        }
+
+        .image-list {
+            list-style-image: url("icon.png");
+        }
+
+        h2 {
+            text-decoration: underline;
+            text-align: left;
+            text-indent: 20px;
+        }
+
+        p {
+            font-style: italic;
+            font-size: 18px;
+            white-space: normal;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Practice CSS Webpage</h1>
+    <h4>Loveland High School</h4>
+    <h4>2026</h4>
+</header>
+
+<main>
+
+    <h2>Roman Numerals List</h2>
+    <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+    </ol>
+
+    <h2>Square Icon List</h2>
+    <ul class="square">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+
+    <h2>Image Icon List</h2>
+    <ul class="image-list">
+        <li>Custom Icon One</li>
+        <li>Custom Icon Two</li>
+        <li>Custom Icon Three</li>
+    </ul>
+
+    <hr>
+
+    <h2>My Image Map</h2>
+
+    <img src="snoppy.jpeg" usemap="#mymap" alt="Snoopy Image" width="800">
+
+    <map name="mymap">
+        <area shape="rect" coords="0,0,200,200" href="https://google.com" alt="Top Left">
+        <area shape="rect" coords="200,0,400,200" href="https://wikipedia.org" alt="Top Middle">
+        <area shape="rect" coords="400,0,600,200" href="https://youtube.com" alt="Top Right">
+    </map>
+
+</main>
+
+<footer>
+    <p>Created by Valerie - 2026</p>
+</footer>
+
+</body>
+</html>
